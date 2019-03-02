@@ -42,8 +42,4 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         performSegue(withIdentifier: "goToImageCollection", sender: self)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-    }
-    
 }
