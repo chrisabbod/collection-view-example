@@ -13,7 +13,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Zlf-hU-TuV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tKQ-Hh-jDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="FyF-vK-zeP" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6j6-b6-CrH">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -23,6 +22,7 @@
                         <segue destination="NtN-Fc-Wkg" kind="relationship" relationship="rootViewController" id="0H4-jO-u6F"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKQ-Hh-jDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-975" y="-40"/>
         </scene>
@@ -92,7 +92,7 @@
         <!--Image Collection View Controller-->
         <scene sceneID="7u1-tg-wAY">
             <objects>
-                <viewController title="Image Collection View Controller" id="CaE-3y-I20" sceneMemberID="viewController">
+                <viewController title="Image Collection View Controller" id="CaE-3y-I20" customClass="ImageCollectionViewController" customModule="CollectionViewExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ddq-2a-xnm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
